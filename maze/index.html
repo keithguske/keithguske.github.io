@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="easel.js"></script>
+    <script src="Cell.js"></script>
+    <script src="Board.js"></script>
+    <script src="RenderBoard.js"></script>
+    <script src="UI.js" defer="true"></script>
+    <title>Maze Demo</title>
+  </head>
+  <body>
+    <h1>Maze Demo</h1>
+    <div>
+      <label for="input">Enter a canvas size</label>
+      <input id="input" type="number" min="1" max="250" value="20">
+      <input id="button" type="button" value="Render">
+    </div>
+    <canvas id="canvas" height="1000" width="1000" style="max-width: 98%"></canvas>
+  </body>
+</html>
